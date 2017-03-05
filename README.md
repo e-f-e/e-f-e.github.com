@@ -13,5 +13,5 @@
 
 ## 如何联系我们
 
-<img width="150" src="./src/img/ffe-qq.png" alt="qq">
-<img width="150" src="./src/img/it-weixin.jpg" alt="weixin">
+* qq群: <img width="150" src="./src/img/ffe-qq.png" alt="qq">
+* 微信公众号: <img width="150" src="./src/img/it-weixin.jpg" alt="weixin">
