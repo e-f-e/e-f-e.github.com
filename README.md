@@ -10,3 +10,8 @@
 
 * [前端入门教程](http://fe-primary-tutorial.itlutoushe.com/)
 
+
+## 如何联系我们
+
+<img width="150" src="./src/img/ffe-qq.png" alt="qq">
+<img width="150" src="./src/img/it-weixin.jpg" alt="weixin">
