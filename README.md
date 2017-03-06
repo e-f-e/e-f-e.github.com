@@ -1,6 +1,6 @@
 # [挨踢路透社](http://www.itlutoushe.com)
 
-前端专栏
+## 前端专栏
 
 * [http://www.itlutoushe.com/fe-study-tutorial/index.html](http://www.itlutoushe.com/fe-study-tutorial/index.html)
 
@@ -10,15 +10,16 @@
 
 * [知乎专栏](https://zhuanlan.zhihu.com/future-fe)
 
-翻译项目：
+<hr>
+
+## 翻译项目：
 
 * [前端入门教程](http://fe-primary-tutorial.itlutoushe.com/)
 
 
 <hr>
 
-如何联系我们
+## 如何联系我们
 
-* 学习交流群: <img width="100" src="./src/img/ffe-qq.png" alt="qq">
-
-* 微信公众号: <img width="120" src="./src/img/it-weixin.jpg" alt="weixin">
+<img width="100" src="./src/img/ffe-qq.png" alt="qq">
+<img width="120" src="./src/img/it-weixin.jpg" alt="weixin">
