@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>挨踢路透社</title>
+        <link href="//cdn.bootcss.com/minireset.css/0.0.2/minireset.min.css" rel="stylesheet">
+        <style type="text/css">
+            html, body, .column {
+                position: relative;
+                height: 100%;
+            }
+
+            #app {
+                position: relative;
+                height: 100%;
+            }
+
+            #app .content {
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .content h2 {
+                color: #ffffff;
+                font-size: 48px;
+            }
+
+            .content h4 {
+                color: #ffffff;
+                font-size: 24px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app">
+            <section class="column" v-for='(item, index) in textInfo' :style="{backgroundColor: bgColor[index%5]}">
+                <div class="content">
+                    <h2>
+                        <a :href="item.link">{{item.title}}</a>
+                    </h2>
+                    <h4>{{item.subTitle}}</h4>
+                </div>
+            </section>
+        </div>
+        <script src="//cdn.bootcss.com/vue/2.2.1/vue.common.min.js"></script>
+        <script type="text/javascript">
+            var textInfo = [
+                {
+                    title: '挨踢路透社前端月刊',
+                    subTitle: '好的文章是难以发现的，优秀的博文是难以挖掘的'
+                    link: 'http://www.itlutoushe.com/fe-study-tutorial/papers/paper.html'
+                    lists: []
+                },
+                {
+                    title: '挨踢路透社前端 wiki',
+                    subTitle: '海纳百川有容乃大，壁立千仞无欲则刚'
+                    link: 'http://www.itlutoushe.com/fe-study-tutorial/wiki/'
+                    lists: []
+                },
+                {
+                    title: '挨踢路透社知乎专栏',
+                    subTitle: '设计、产品、技术'
+                    link: 'https://zhuanlan.zhihu.com/future-fe'
+                    lists: []
+                },
+                {
+                    title: '挨踢路透社前端入门教程',
+                    subTitle: '合抱之木，生于毫末；九层之台，起于垒土；千里之行，始于足下。'
+                    link: false
+                    lists: [
+                        {
+                            text: '前端入门教程',
+                            link: 'http://fe-primary-tutorial.itlutoushe.com/'
+                        }
+                    ]
+                }
+            ];
+
+            new Vue({
+                data: function () {
+                    return {
+                        textInfo: textInfo,
+                        bgColor: [
+                            '#D9CCCD',
+                            '#D9D6CE',
+                            '#D4D9CE',
+                            '#CED8D9',
+                            '#CED2D9'
+                        ]
+                    }
+                }
+            });
+        </script>
+    </body>
+</html>
