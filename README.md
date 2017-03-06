@@ -15,8 +15,10 @@
 * [前端入门教程](http://fe-primary-tutorial.itlutoushe.com/)
 
 
-## 如何联系我们
+<hr>
 
-* 学习交流群: <img width="150" src="./src/img/ffe-qq.png" alt="qq">
+如何联系我们
 
-* 微信公众号: <img width="150" src="./src/img/it-weixin.jpg" alt="weixin">
+* 学习交流群: <img width="100" src="./src/img/ffe-qq.png" alt="qq">
+
+* 微信公众号: <img width="120" src="./src/img/it-weixin.jpg" alt="weixin">
