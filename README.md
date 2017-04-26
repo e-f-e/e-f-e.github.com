@@ -42,6 +42,15 @@
 * [React](https://facebook.github.io/react/)
 * [inferno](https://github.com/infernojs/inferno)
 
+## 工具
+
+### 日常工具
+* [chrome 书签整理]
+
+### 开发工具
+
+* [web调试利器](http://www.telerik.com/fiddler)
+
 
 ## 前端专栏
 
